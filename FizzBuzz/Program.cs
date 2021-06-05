@@ -9,11 +9,10 @@ namespace FizzBuzz
             try
             {
                 FizzBuzz fizzBuzz = new FizzBuzz();
-                Console.WriteLine("Podaj liczbę : ");
-
 
                 while (true)
                 {
+                    Console.WriteLine("Podaj liczbę : ");
                     int userNumber = GetNumber();
 
                     string result = fizzBuzz.GetInfo(userNumber);
